@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = 0
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selectedTab) {
+            DateInputView()
+                .tabItem {
+                    Label("Расчет", systemImage: "calculator")
+                }
+                .tag(0)
+            
+            AboutView()
+                .tabItem {
+                    Label("О методе", systemImage: "info.circle")
+                }
+                .tag(1)
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
