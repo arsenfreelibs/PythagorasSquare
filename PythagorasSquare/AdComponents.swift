@@ -27,7 +27,7 @@ struct InterstitialAdButton: View {
         Button(action: {
             interstitial.showAd()
         }) {
-            Text("Поддержать разработчика")
+            Text(LocalizedStringKey("ad_msg"))
                 .font(.footnote)
                 .foregroundColor(.blue)
         }
