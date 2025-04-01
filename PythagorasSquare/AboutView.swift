@@ -18,7 +18,7 @@ struct AboutView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
                     // Заголовок
-                    Text("О методе «Квадрат Пифагора»")
+                    Text(LocalizedStringKey("about_title"))
                         .font(.system(size: 24, weight: .bold, design: .rounded))
                         .foregroundColor(.primary)
                         .padding(.top)
@@ -27,19 +27,19 @@ struct AboutView: View {
                     
                     // Текст
                     VStack(alignment: .leading, spacing: 15) {
-                        Text("«Квадрат Пифагора», также известный как «Психоматрица», — это увлекательный нумерологический метод, который раскрывает тайны вашей личности через дату рождения.")
+                        Text(LocalizedStringKey("about_text1"))
                             .opacity(isVisible ? 1 : 0)
                             .animation(.easeIn(duration: 0.6).delay(0.2), value: isVisible)
                         
-                        Text("С помощью этой древней системы вы можете узнать свои сильные стороны, скрытые таланты и даже те качества, над которыми стоит поработать. Это как карта вашей души, составленная числами!")
+                        Text(LocalizedStringKey("about_text2"))
                             .opacity(isVisible ? 1 : 0)
                             .animation(.easeIn(duration: 0.6).delay(0.3), value: isVisible)
                         
-                        Text("Как это работает? Всё просто: числа из вашей даты рождения складываются в уникальную матрицу из 9 ячеек. Каждая ячейка отвечает за определённые черты характера и жизненные аспекты — от лидерства до творчества.")
+                        Text(LocalizedStringKey("about_text3"))
                             .opacity(isVisible ? 1 : 0)
                             .animation(.easeIn(duration: 0.6).delay(0.4), value: isVisible)
                         
-                        Text("Метод приписывают самому Пифагору, который верил, что числа — это язык Вселенной. Сегодня «Квадрат Пифагора» помогает людям лучше понять себя и найти свой путь.")
+                        Text(LocalizedStringKey("about_text4"))
                             .opacity(isVisible ? 1 : 0)
                             .animation(.easeIn(duration: 0.6).delay(0.5), value: isVisible)
                     }

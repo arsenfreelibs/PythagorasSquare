@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  PythagorasSquare
+
+  Created by Roman Valchuk on 01.04.2025.
+  
+*/
+
+"about_title" = "About the 'Pythagorean Square' Method";
+"about_text1" = "The 'Pythagorean Square', also known as the 'Psychomatrix', is a fascinating numerological method that reveals the secrets of your personality through your birth date.";
+"about_text2" = "Using this ancient system, you can discover your strengths, hidden talents, and even the qualities you might want to work on. It’s like a map of your soul, drawn in numbers!";
+"about_text3" = "How does it work? It’s simple: the numbers from your birth date form a unique 9-cell matrix. Each cell corresponds to specific character traits and life aspects—from leadership to creativity.";
+"about_text4" = "The method is attributed to Pythagoras himself, who believed that numbers are the language of the Universe. Today, the 'Pythagorean Square' helps people better understand themselves and find their path.";
+"splash_title" = "Pythagorean Square";
