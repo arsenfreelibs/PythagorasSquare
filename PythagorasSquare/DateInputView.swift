@@ -23,7 +23,7 @@ struct DateInputView: View {
                     ScrollView { // Добавляем прокрутку
                         VStack(spacing: 20) {
                             // Заголовок
-                            Text("Введите дату рождения")
+                            Text(LocalizedStringKey("date_input_enter_birhtday"))
                                 .font(.system(size: 24, weight: .bold, design: .rounded))
                                 .foregroundColor(.primary)
                                 .padding(.top)
@@ -33,7 +33,7 @@ struct DateInputView: View {
                             // DatePicker с подсказкой
                             VStack(spacing: 8) {
                                 DatePicker(
-                                    "Дата рождения",
+                                    LocalizedStringKey("date_input_birhtday"),
                                     selection: $birthDate,
                                     in: ...Date(),
                                     displayedComponents: .date
@@ -48,7 +48,7 @@ struct DateInputView: View {
                                 .opacity(isVisible ? 1 : 0)
                                 .animation(.easeIn(duration: 0.6).delay(0.2), value: isVisible)
                                 
-                                Text("Выберите дату для расчёта вашей судьбы")
+                                Text(LocalizedStringKey("date_input_chose_date"))
                                     .font(.subheadline)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.center)
@@ -67,7 +67,7 @@ struct DateInputView: View {
                                     showResults = true
                                 }
                             }) {
-                                Text("Рассчитать")
+                                Text(LocalizedStringKey("date_input_btn"))
                                     .font(.system(size: 18, weight: .semibold, design: .rounded))
                                     .foregroundColor(.white)
                                     .padding()
@@ -97,7 +97,7 @@ struct DateInputView: View {
                     }
                 }
             }
-            .navigationTitle("Квадрат Пифагора")
+            .navigationTitle(LocalizedStringKey("app_title"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {

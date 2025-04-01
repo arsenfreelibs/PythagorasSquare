@@ -34,14 +34,14 @@ struct SplashScreenView: View {
                                 .scaledToFit()
                         )
                     
-                    Text(LocalizedStringKey("splash_title"))
+                    Text(LocalizedStringKey("app_title"))
                         .font(.largeTitle)
                         .bold()
                         .overlay(
                             LinearGradient(gradient: Gradient(colors: [.blue, .purple]), startPoint: .leading, endPoint: .trailing)
                         )
                         .mask(
-                            Text(LocalizedStringKey("splash_title"))
+                            Text(LocalizedStringKey("app_title"))
                                 .font(.largeTitle)
                                 .bold()
                         )
