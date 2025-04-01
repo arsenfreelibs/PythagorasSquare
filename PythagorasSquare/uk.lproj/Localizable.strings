@@ -16,4 +16,6 @@
 "date_input_msg" = "Оберіть дату, щоб розрахувати свою долю";
 "date_input_birhtday" = "Дата народження";
 "date_input_enter_birhtday" = "Введіть дату народження";
-"date_input_chose_date" = "Оберіть дату для розрахунку вашої долі";  
+"date_input_chose_date" = "Оберіть дату для розрахунку вашої долі";
+"content_view_tab1" = "Розрахунок";
+"content_view_tab2" = "Про метод";  

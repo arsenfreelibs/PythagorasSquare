@@ -16,13 +16,13 @@ struct ContentView: View {
         TabView(selection: $selectedTab) {
             DateInputView()
                 .tabItem {
-                    Label("Расчёт", systemImage: "number")
+                    Label(LocalizedStringKey("content_view_tab1"), systemImage: "number")
                 }
                 .tag(0)
             
             AboutView()
                 .tabItem {
-                    Label("О методе", systemImage: "info.circle")
+                    Label(LocalizedStringKey("content_view_tab2"), systemImage: "info.circle")
                 }
                 .tag(1)
         }

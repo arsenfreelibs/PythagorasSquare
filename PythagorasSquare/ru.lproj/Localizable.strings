@@ -17,3 +17,5 @@
 "date_input_birhtday" = "Дата рождения";
 "date_input_enter_birhtday" = "Введите дату рождения";
 "date_input_chose_date" = "Выберите дату для расчёта вашей судьбы";
+"content_view_tab1" = "Расчёт";
+"content_view_tab2" = "О методе";

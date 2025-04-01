@@ -16,4 +16,6 @@
 "date_input_msg" = "选择日期来计算你的命运";
 "date_input_birhtday" = "出生日期";
 "date_input_enter_birhtday" = "输入出生日期";
-"date_input_chose_date" = "选择日期来计算你的命运";  
+"date_input_chose_date" = "选择日期来计算你的命运";
+"content_view_tab1" = "计算";
+"content_view_tab2" = "关于方法";
