@@ -21,3 +21,7 @@
 "content_view_tab2" = "Про метод";  
 "explanation_title" = "Трактування вашого квадрата Піфагора";
 "explanation_nav_title" = "Трактування";
+"result_title" = "Ваш квадрат Піфагора";
+"result_btn_title" = "Переглянути трактування";
+"result_res" = "Результат";
+"result_number_label" = "Число %d";

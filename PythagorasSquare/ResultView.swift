@@ -20,7 +20,7 @@ struct ResultView: View {
             ScrollView {
                 VStack(spacing: 20) {
                     // Заголовок
-                    Text("Ваш квадрат Пифагора")
+                    Text(LocalizedStringKey("result_title"))
                         .font(.system(size: 24, weight: .bold, design: .rounded))
                         .foregroundColor(.primary)
                         .padding(.top)
@@ -51,7 +51,7 @@ struct ResultView: View {
                     GeometryReader { geometry in
                         HStack(spacing: 10) {
                             ForEach([10, 11, 12, 13], id: \.self) { number in
-                                AdditionalNumberView(label: "Число \(number-9)", value: square.numbers[number] ?? 0)
+                                AdditionalNumberView(label:  String(format: NSLocalizedString("result_number_label", comment: ""), number-9), value: square.numbers[number] ?? 0)
                                     .frame(maxWidth: geometry.size.width > 500 ? 100 : 80)
                             }
                         }
@@ -68,7 +68,7 @@ struct ResultView: View {
                             showExplanation = true
                         }
                     }) {
-                        Text("Посмотреть трактовку")
+                        Text(LocalizedStringKey("result_btn_title"))
                             .font(.system(size: 18, weight: .semibold, design: .rounded))
                             .foregroundColor(.white)
                             .padding()
@@ -93,7 +93,7 @@ struct ResultView: View {
                 }
                 .frame(maxWidth: .infinity, alignment: .center)
             }
-            .navigationTitle("Результат")
+            .navigationTitle(LocalizedStringKey("result_res"))
             .navigationBarTitleDisplayMode(.inline)
             .background(
                 NavigationLink(

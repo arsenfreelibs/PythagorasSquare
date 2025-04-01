@@ -21,3 +21,7 @@
 "content_view_tab2" = "About the Method";
 "explanation_title" = "Interpretation of your Pythagorean Square";
 "explanation_nav_title" = "Interpretation";
+"result_title" = "Your Pythagorean Square";
+"result_btn_title" = "View Interpretation";
+"result_res" = "Result";
+"result_number_label" = "Number %d";

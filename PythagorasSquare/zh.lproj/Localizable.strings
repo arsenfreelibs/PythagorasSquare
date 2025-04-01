@@ -21,3 +21,7 @@
 "content_view_tab2" = "关于方法";
 "explanation_title" = "你的毕达哥拉斯数字方阵解析";
 "explanation_nav_title" = "解析";
+"result_title" = "你的毕达哥拉斯数字方阵";
+"result_btn_title" = "查看解析";
+"result_res" = "结果";
+"result_number_label" = "数字 %d";
