@@ -18,4 +18,6 @@
 "date_input_enter_birhtday" = "Enter your birth date";
 "date_input_chose_date" = "Select a date to calculate your destiny";  
 "content_view_tab1" = "Calculation";
-"content_view_tab2" = "About the Method";  
+"content_view_tab2" = "About the Method";
+"explanation_title" = "Interpretation of your Pythagorean Square";
+"explanation_nav_title" = "Interpretation";

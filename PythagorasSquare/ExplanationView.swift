@@ -19,7 +19,7 @@ struct ExplanationView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
                     // Заголовок
-                    Text("Трактовка вашего квадрата Пифагора")
+                    Text(LocalizedStringKey("explanation_title"))
                         .font(.system(size: 24, weight: .bold, design: .rounded))
                         .foregroundColor(.primary)
                         .padding(.top)
@@ -59,7 +59,7 @@ struct ExplanationView: View {
                     .opacity(isVisible ? 1 : 0)
                     .animation(.easeIn(duration: 0.6).delay(0.5), value: isVisible)
             }
-            .navigationTitle("Трактовка")
+            .navigationTitle(LocalizedStringKey("explanation_nav_title"))
             .navigationBarTitleDisplayMode(.inline)
             .onAppear {
                 withAnimation {

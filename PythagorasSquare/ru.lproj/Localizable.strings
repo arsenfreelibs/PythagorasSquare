@@ -19,3 +19,5 @@
 "date_input_chose_date" = "Выберите дату для расчёта вашей судьбы";
 "content_view_tab1" = "Расчёт";
 "content_view_tab2" = "О методе";
+"explanation_title" = "Трактовка вашего квадрата Пифагора";
+"explanation_nav_title" = "Трактовка";
