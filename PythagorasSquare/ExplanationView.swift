@@ -11,6 +11,21 @@ struct ExplanationView: View {
     let characteristics: [String: String]
     @State private var isVisible = false // Для анимации появления
     
+    private var orderedKeys: [String] {
+            var keys: [String] = []
+            // Числа 1-9
+            for i in 1...9 {
+                keys.append(String(format: NSLocalizedString("result_number_label", comment: "Label for Pythagoras square number (e.g., 'Number 1')"), i))
+            }
+            // Дополнительные числа 10-13 (Число судьбы 1-4)
+            for i in 10...13 {
+                keys.append(NSLocalizedString("pythagoras_number_\(i)_title", comment: "Title for additional number \(i)"))
+            }
+            // Общая характеристика в конце
+            keys.append(NSLocalizedString("general_characteristic_title", comment: "Title for general characteristic"))
+            return keys
+        }
+    
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.purple.opacity(0.1), .blue.opacity(0.1)]), startPoint: .top, endPoint: .bottom)
@@ -27,7 +42,7 @@ struct ExplanationView: View {
                         .animation(.easeIn(duration: 0.5), value: isVisible)
                     
                     // Характеристики
-                    ForEach(Array(characteristics.keys.sorted()), id: \.self) { key in
+                    ForEach(orderedKeys, id: \.self) { key in
                         VStack(alignment: .leading, spacing: 8) {
                             Text(key)
                                 .font(.system(size: 20, weight: .semibold, design: .rounded))
