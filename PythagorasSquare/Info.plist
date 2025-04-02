@@ -4,8 +4,13 @@
 <dict>
 	<key>CFBundleLocalizations</key>
 	<array>
-		<string>en</string>
-		<string>ru</string>
+    	<string>en</string>  <!-- Английский -->
+    	<string>ru</string>  <!-- Русский -->
+    	<string>uk</string>  <!-- Украинский -->
+    	<string>zh</string>  <!-- Китайский -->
+    	<string>fr</string>  <!-- Французский -->
+    	<string>de</string>  <!-- Немецкий -->
+    	<string>es</string>  <!-- Испанский -->
 	</array>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-3132483666658391~5252593578</string>

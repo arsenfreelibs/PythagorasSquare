@@ -1,0 +1,174 @@
+/* 
+  Localizable.strings
+  PythagorasSquare
+
+  Created by Roman Valchuk on 01.04.2025.
+  
+*/
+
+"app_title" = "Carré de Pythagore";
+"about_title" = "À propos de la méthode «Carré de Pythagore»";
+"about_text1" = "Le «Carré de Pythagore», également connu sous le nom de «Psychomatrice», est une méthode numérologique fascinante qui révèle les secrets de votre personnalité à travers votre date de naissance.";
+"about_text2" = "Grâce à ce système ancien, vous pouvez découvrir vos points forts, vos talents cachés et même les qualités sur lesquelles vous devriez travailler. C'est comme une carte de votre âme, composée de chiffres !";
+"about_text3" = "Comment ça marche ? C'est simple : les chiffres de votre date de naissance sont combinés dans une matrice unique de 9 cellules. Chaque cellule correspond à certains traits de caractère et aspects de la vie - du leadership à la créativité.";
+"about_text4" = "Cette méthode est attribuée à Pythagore lui-même, qui croyait que les nombres sont le langage de l'Univers. Aujourd'hui, le «Carré de Pythagore» aide les gens à mieux se comprendre et à trouver leur chemin.";
+"date_input_btn" = "Calculer";
+"date_input_msg" = "Choisissez une date pour calculer votre destin";
+"date_input_birhtday" = "Date de naissance";
+"date_input_enter_birhtday" = "Entrez votre date de naissance";
+"date_input_chose_date" = "Choisissez une date pour calculer votre destin";
+"content_view_tab1" = "Calcul";
+"content_view_tab2" = "À propos";
+"explanation_title" = "Interprétation de votre carré de Pythagore";
+"explanation_nav_title" = "Interprétation";
+"result_title" = "Votre carré de Pythagore";
+"result_btn_title" = "Voir l'interprétation";
+"result_res" = "Résultat";
+"result_number_label" = "Nombre %d";
+"ad_msg" = "Soutenir le développeur";
+
+// Number 1
+"pythagoras_number_1_one" = "Vous avez 1 chiffre 1. Cela indique la présence de caractère, de volonté et de détermination. Vous êtes capable de leadership, mais vous ne l'utilisez pas toujours.";
+"pythagoras_number_1_two" = "Vous avez 2 chiffres 1. Vous possédez un caractère fort, de la détermination et des qualités de leadership prononcées.";
+"pythagoras_number_1_many" = "Vous avez %d chiffres 1. Cela indique une volonté très forte, de l'entêtement et un désir prononcé de leadership. Vous ne tolérez pas les objections et cherchez toujours à être premier.";
+"pythagoras_number_1_none" = "L'absence de chiffres 1 indique un caractère doux, un manque d'initiative et de volonté. Il vous est difficile d'insister sur votre point de vue, mais vous savez vous adapter aux circonstances.";
+
+// Number 2
+"pythagoras_number_2_one" = "Vous avez 1 chiffre 2. Cela indique un équilibre, une capacité au compromis et à la diplomatie. Vous savez trouver l'équilibre dans les relations.";
+"pythagoras_number_2_two" = "Vous avez 2 chiffres 2. Vous possédez de bonnes capacités diplomatiques, savez écouter les autres et trouver un langage commun avec différentes personnes.";
+"pythagoras_number_2_many" = "Vous avez %d chiffres 2. Cela indique des capacités diplomatiques exceptionnelles, un esprit pacifique et une tendance à la coopération. Vous êtes un pacificateur et médiateur né.";
+"pythagoras_number_2_none" = "L'absence de chiffres 2 peut indiquer un manque de flexibilité dans les relations, des difficultés à trouver des compromis. Il peut vous être difficile de percevoir le point de vue des autres.";
+
+// Number 3
+"pythagoras_number_3_one" = "Vous avez 1 chiffre 3. Cela indique la présence d'un potentiel créatif et d'expression personnelle. Vous êtes capable de penser de manière non conventionnelle.";
+"pythagoras_number_3_two" = "Vous avez 2 chiffres 3. Vous possédez une pensée créative brillante, une imagination riche et un désir d'expression personnelle.";
+"pythagoras_number_3_many" = "Vous avez %d chiffres 3. Cela indique des capacités créatives exceptionnelles, une imagination riche et une pensée originale. Vous êtes né pour la créativité et l'expression de soi.";
+"pythagoras_number_3_none" = "L'absence de chiffres 3 peut indiquer une prédominance de la pensée logique sur la créativité, une certaine contrainte dans l'expression personnelle. Vous pouvez manquer d'imagination.";
+
+// Number 4
+"pythagoras_number_4_one" = "Vous avez 1 chiffre 4. Cela indique une certaine méthodologie, stabilité et capacité de travail. Vous êtes capable d'un travail méthodique.";
+"pythagoras_number_4_two" = "Vous avez 2 chiffres 4. Vous possédez une bonne capacité de travail, un sens pratique et de la méthodologie. Vous êtes fiable et solide.";
+"pythagoras_number_4_many" = "Vous avez %d chiffres 4. Cela indique une capacité de travail exceptionnelle, un sens pratique et méthodique. Vous êtes très fiable, responsable et fondamental dans tout ce que vous faites.";
+"pythagoras_number_4_none" = "L'absence de chiffres 4 peut indiquer un manque de sens pratique et de méthodologie. Il peut vous être difficile de vous engager dans un travail routinier et de mener les choses à leur terme.";
+
+// Number 5
+"pythagoras_number_5_one" = "Vous avez 1 chiffre 5. Cela indique de la curiosité, un désir de nouveauté et de changement. Vous n'aimez pas la stagnation et la routine.";
+"pythagoras_number_5_two" = "Vous avez 2 chiffres 5. Vous avez une forte attirance pour les nouvelles expériences, de la curiosité et un désir de liberté. Vous avez besoin de changements et de variété.";
+"pythagoras_number_5_many" = "Vous avez %d chiffres 5. Cela indique un désir prononcé de liberté, un esprit aventureux et une soif de nouvelles impressions. Vous ne supportez pas les restrictions et la monotonie.";
+"pythagoras_number_5_none" = "L'absence de chiffres 5 peut indiquer du conservatisme, une peur du changement et une tendance à un mode de vie habituel. Vous êtes plus à l'aise dans un environnement stable et prévisible.";
+
+// Number 6
+"pythagoras_number_6_one" = "Vous avez 1 chiffre 6. Cela indique un sens des responsabilités, de la bienveillance et des valeurs familiales. Vous êtes capable de compassion et de prendre soin des autres.";
+"pythagoras_number_6_two" = "Vous avez 2 chiffres 6. Vous possédez un fort sens des responsabilités, vous prenez soin de vos proches et êtes attaché aux valeurs familiales. Vous êtes une personne fiable et attentionnée.";
+"pythagoras_number_6_many" = "Vous avez %d chiffres 6. Cela indique une capacité exceptionnelle à prendre soin des autres, un fort attachement à la famille et un sens aigu des responsabilités. Prendre soin des autres est votre vocation.";
+"pythagoras_number_6_none" = "L'absence de chiffres 6 peut indiquer des difficultés à exprimer soin et compassion, une certaine distance dans les relations. Il peut vous être difficile d'assumer la responsabilité des autres.";
+
+// Number 7
+"pythagoras_number_7_one" = "Vous avez 1 chiffre 7. Cela indique une tendance à l'analyse, à l'intellectualité et à la recherche spirituelle. Vous êtes capable d'une réflexion profonde.";
+"pythagoras_number_7_two" = "Vous avez 2 chiffres 7. Vous possédez un esprit analytique puissant, un désir de connaissance et de développement spirituel. Vous êtes un penseur profond.";
+"pythagoras_number_7_many" = "Vous avez %d chiffres 7. Cela indique des capacités intellectuelles exceptionnelles, une sagesse profonde et une forte attirance pour la recherche spirituelle. Vous êtes un philosophe et un penseur par nature.";
+"pythagoras_number_7_none" = "L'absence de chiffres 7 peut indiquer une prédominance de la pensée pratique sur la théorique, une certaine superficialité dans les jugements. Il peut vous manquer une tendance à l'analyse profonde.";
+
+// Number 8
+"pythagoras_number_8_one" = "Vous avez 1 chiffre 8. Cela indique certaines capacités organisationnelles, un sens des affaires et des ambitions matérielles. Vous êtes capable d'atteindre le bien-être financier.";
+"pythagoras_number_8_two" = "Vous avez 2 chiffres 8. Vous possédez de bonnes capacités organisationnelles, un instinct pour les affaires et une aspiration au succès matériel. Vous êtes un gestionnaire né.";
+"pythagoras_number_8_many" = "Vous avez %d chiffres 8. Cela indique des capacités exceptionnelles pour les affaires, la gestion et l'atteinte du bien-être matériel. Vous êtes né pour être un leader dans le domaine des affaires.";
+"pythagoras_number_8_none" = "L'absence de chiffres 8 peut indiquer un manque de sens des affaires, de capacités organisationnelles et d'ambitions matérielles. Il peut vous être difficile d'atteindre le bien-être financier.";
+
+// Number 9
+"pythagoras_number_9_one" = "Vous avez 1 chiffre 9. Cela indique une capacité à la compassion, à l'altruisme et aux idéaux humanistes. Vous êtes capable de penser au bien des autres.";
+"pythagoras_number_9_two" = "Vous avez 2 chiffres 9. Vous possédez un fort sens de la justice, de l'altruisme et des valeurs humanistes. Vous aspirez à rendre le monde meilleur.";
+"pythagoras_number_9_many" = "Vous avez %d chiffres 9. Cela indique un haut niveau d'altruisme, de compassion et un dévouement aux idéaux humanistes. Votre vocation est d'aider les autres et de rendre le monde meilleur.";
+"pythagoras_number_9_none" = "L'absence de chiffres 9 peut indiquer une prédominance des intérêts personnels sur les intérêts communs, un certain égocentrisme. Il peut vous être difficile de sacrifier vos intérêts pour les autres.";
+
+// Number 10 - Destiny
+"pythagoras_number_10_intro" = "Votre nombre de destin est %d. Ce nombre reflète votre mission de vie et votre principale leçon de vie. ";
+"pythagoras_number_10_1" = "Votre mission est de développer le leadership, l'autonomie et la confiance en soi. Vous devez apprendre à prendre l'initiative.";
+"pythagoras_number_10_2" = "Votre mission est de trouver l'harmonie dans les relations, d'apprendre à coopérer et à être diplomatique. Il est important pour vous de développer la patience et la compréhension.";
+"pythagoras_number_10_3" = "Votre mission est de révéler votre potentiel créatif et de le partager avec le monde. Vous devez apprendre à vous exprimer et à inspirer les autres.";
+"pythagoras_number_10_4" = "Votre mission est de construire la stabilité et l'ordre dans votre vie et celle des autres. Il est important pour vous de développer le travail acharné et le sens pratique.";
+"pythagoras_number_10_5" = "Votre mission est d'accepter les changements et la liberté comme faisant partie de la vie. Vous devez apprendre à vous adapter et à chercher de nouvelles opportunités.";
+"pythagoras_number_10_6" = "Votre mission est de prendre soin des autres et de créer l'harmonie dans la famille et la société. Il est important pour vous de développer la responsabilité et la compassion.";
+"pythagoras_number_10_7" = "Votre mission est de rechercher la connaissance et la profondeur spirituelle. Vous devez développer l'esprit analytique et la sagesse intérieure.";
+"pythagoras_number_10_8" = "Votre mission est d'atteindre le succès matériel et de gérer les ressources. Il est important pour vous d'apprendre à équilibrer ambition et équité.";
+"pythagoras_number_10_9" = "Votre mission est de servir l'humanité et d'être utile au monde. Vous devez développer l'altruisme et une pensée globale.";
+"pythagoras_number_10_0" = "Ce nombre indique une tâche unique que vous devez découvrir au cours de votre vie.";
+"pythagoras_number_10_title" = "Nombre de destin (1)";
+
+// Number 11 - Character
+"pythagoras_number_11_intro" = "Votre nombre de caractère est %d. Ce nombre reflète vos qualités intérieures, les particularités de votre caractère et de votre tempérament. ";
+"pythagoras_number_11_1" = "Vous êtes indépendant, déterminé et cherchez à être premier en tout.";
+"pythagoras_number_11_2" = "Vous êtes doux, diplomatique et savez trouver un langage commun avec les gens.";
+"pythagoras_number_11_3" = "Vous êtes une personne créative avec une imagination riche et une expression personnelle vive.";
+"pythagoras_number_11_4" = "Vous êtes pratique, fiable et aimez l'ordre en toutes choses.";
+"pythagoras_number_11_5" = "Vous êtes curieux, épris de liberté et ne tolérez pas la routine.";
+"pythagoras_number_11_6" = "Vous êtes attentionné, responsable et valorisez la famille.";
+"pythagoras_number_11_7" = "Vous êtes analytique, réfléchi et aspirez à la connaissance.";
+"pythagoras_number_11_8" = "Vous êtes ambitieux, organisé et orienté vers le succès.";
+"pythagoras_number_11_9" = "Vous êtes compatissant, idéaliste et pensez au bien des autres.";
+"pythagoras_number_11_0" = "Votre caractère est unique et multifacette.";
+"pythagoras_number_11_title" = "Nombre de caractère (2)";
+
+// Number 12 - Appearance
+"pythagoras_number_12_intro" = "Votre nombre de manifestation extérieure est %d. Ce nombre reflète comment vous êtes perçu par les autres. ";
+"pythagoras_number_12_1" = "Les gens vous voient comme un leader, confiant et plein d'initiative.";
+"pythagoras_number_12_2" = "Vous êtes perçu comme une personne douce, amicale et équilibrée.";
+"pythagoras_number_12_3" = "Les autres remarquent votre créativité et votre éclat.";
+"pythagoras_number_12_4" = "Vous êtes considéré comme fiable, stable et pratique.";
+"pythagoras_number_12_5" = "Les gens voient en vous une personne énergique, libre et imprévisible.";
+"pythagoras_number_12_6" = "Vous êtes perçu comme attentionné et responsable.";
+"pythagoras_number_12_7" = "Les autres vous voient comme profond, mystérieux et intelligent.";
+"pythagoras_number_12_8" = "Les gens vous considèrent comme fort, autoritaire et réussi.";
+"pythagoras_number_12_9" = "Vous êtes perçu comme gentil, généreux et inspirant.";
+"pythagoras_number_12_0" = "Vous produisez une impression unique sur les autres.";
+"pythagoras_number_12_title" = "Nombre de manifestation extérieure (3)";
+
+// Number 13 - Energy
+"pythagoras_number_13_intro" = "Votre nombre d'énergie est %d. Ce nombre reflète votre potentiel énergétique et votre force d'impact sur le monde. ";
+"pythagoras_number_13_1" = "Votre énergie est dirigée vers l'atteinte des objectifs et le leadership.";
+"pythagoras_number_13_2" = "Votre énergie est douce, harmonieuse et favorise la coopération.";
+"pythagoras_number_13_3" = "Votre énergie est créative et inspirante.";
+"pythagoras_number_13_4" = "Votre énergie est stable et soutient le travail acharné.";
+"pythagoras_number_13_5" = "Votre énergie est dynamique, orientée vers le changement et la liberté.";
+"pythagoras_number_13_6" = "Votre énergie est chaleureuse, attentionnée et soutenante.";
+"pythagoras_number_13_7" = "Votre énergie est profonde, intellectuelle et contemplative.";
+"pythagoras_number_13_8" = "Votre énergie est puissante, orientée vers le succès et la gestion.";
+"pythagoras_number_13_9" = "Votre énergie est généreuse, orientée vers l'aide aux autres.";
+"pythagoras_number_13_0" = "Votre énergie est unique et multifacette.";
+"pythagoras_number_13_title" = "Nombre d'énergie (4)";
+
+// Strong traits
+"strong_trait_1" = "caractère fort et leadership";
+"strong_trait_2" = "diplomatie et flexibilité";
+"strong_trait_3" = "potentiel créatif";
+"strong_trait_4" = "sens pratique et assiduité";
+"strong_trait_5" = "curiosité et aspiration à la liberté";
+"strong_trait_6" = "bienveillance et responsabilité";
+"strong_trait_7" = "intellectualité et sagesse";
+"strong_trait_8" = "sens des affaires et capacités organisationnelles";
+"strong_trait_9" = "altruisme et humanisme";
+
+// Weak traits
+"weak_trait_1" = "initiative et confiance";
+"weak_trait_2" = "flexibilité dans les relations";
+"weak_trait_3" = "expression créative";
+"weak_trait_4" = "méthodologie et stabilité";
+"weak_trait_5" = "ouverture aux changements";
+"weak_trait_6" = "soin des autres";
+"weak_trait_7" = "analyse profonde et spiritualité";
+"weak_trait_8" = "ambitions matérielles";
+"weak_trait_9" = "désir d'aider les autres";
+
+// General characteristics
+"general_characteristic_intro" = "Votre carré de Pythagore reflète une combinaison unique de qualités. ";
+"general_characteristic_no_strong" = "Votre force ne se distingue pas encore par des traits prononcés, mais cela vous donne de la flexibilité pour développer n'importe quelles qualités. ";
+"general_characteristic_strong" = "Vos points forts sont %@. ";
+
+"and" = "et";
+"comma" = ",";
+
+"general_characteristic_no_weak" = "Vous n'avez pas de lacunes évidentes, ce qui indique une nature équilibrée. ";
+"general_characteristic_weak" = "Les domaines que vous devriez développer comprennent %@. ";
+
+"general_characteristic_outro" = "Le développement harmonieux de vos traits uniques vous aidera à atteindre le succès et l'équilibre intérieur.";
+"general_characteristic_title" = "Caractéristique générale";
