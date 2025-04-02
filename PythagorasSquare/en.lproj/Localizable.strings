@@ -26,3 +26,146 @@
 "result_res" = "Result";
 "result_number_label" = "Number %d";
 "ad_msg" = "Support the developer";
+
+// Number 1
+"pythagoras_number_1_one" = "You have 1 one. This indicates character, willpower, and determination. You have leadership potential but don't always use it.";
+"pythagoras_number_1_two" = "You have 2 ones. You possess strong character, determination, and pronounced leadership qualities.";
+"pythagoras_number_1_many" = "You have %d ones. This indicates very strong willpower, stubbornness, and a pronounced desire for leadership. You don't tolerate objections and always strive to be first.";
+"pythagoras_number_1_none" = "No ones indicate a gentle character, lack of initiative and willpower. You find it hard to insist on your own, but you adapt well to circumstances.";
+
+// Number 2
+"pythagoras_number_2_one" = "You have 1 two. This indicates balance, ability to compromise and diplomacy. You know how to find balance in relationships.";
+"pythagoras_number_2_two" = "You have 2 twos. You have good diplomatic skills, listen to others and find common ground with different people.";
+"pythagoras_number_2_many" = "You have %d twos. This indicates outstanding diplomatic abilities, peacefulness and tendency to cooperate. You're a born peacemaker and mediator.";
+"pythagoras_number_2_none" = "No twos may indicate lack of flexibility in relationships, difficulty in finding compromises. You may find it hard to accept others' viewpoints.";
+
+// Number 3
+"pythagoras_number_3_one" = "You have 1 three. This indicates creative potential and self-expression. You're capable of unconventional thinking.";
+"pythagoras_number_3_two" = "You have 2 threes. You have bright creative thinking, rich imagination and desire for self-expression.";
+"pythagoras_number_3_many" = "You have %d threes. This indicates exceptional creativity, rich imagination and original thinking. You were born for creativity and self-expression.";
+"pythagoras_number_3_none" = "No threes may indicate predominance of logical over creative thinking, some restraint in self-expression. You may lack imagination.";
+
+// Number 4
+"pythagoras_number_4_one" = "You have 1 four. This indicates certain methodicalness, stability and work capacity. You're capable of systematic work.";
+"pythagoras_number_4_two" = "You have 2 fours. You have good work capacity, practicality and methodicalness. You're reliable and thorough.";
+"pythagoras_number_4_many" = "You have %d fours. This indicates outstanding work capacity, practicality and methodicalness. You're very reliable, responsible and thorough in everything you do.";
+"pythagoras_number_4_none" = "No fours may indicate lack of practicality and methodicalness. You may find routine work difficult and struggle to complete tasks.";
+
+// Number 5
+"pythagoras_number_5_one" = "You have 1 five. This indicates curiosity, desire for novelty and change. You dislike stagnation and routine.";
+"pythagoras_number_5_two" = "You have 2 fives. You have strong desire for new experiences, curiosity and desire for freedom. You need change and variety.";
+"pythagoras_number_5_many" = "You have %d fives. This indicates pronounced desire for freedom, adventurousness and thirst for new experiences. You can't stand limitations and monotony.";
+"pythagoras_number_5_none" = "No fives may indicate conservatism, fear of change and tendency to familiar lifestyle. You're more comfortable in stable, predictable environment.";
+
+// Number 6
+"pythagoras_number_6_one" = "You have 1 six. This indicates responsibility, caring nature and family values. You're capable of compassion and caring for others.";
+"pythagoras_number_6_two" = "You have 2 sixes. You have strong sense of responsibility, care for loved ones and commitment to family values. You're reliable and caring.";
+"pythagoras_number_6_many" = "You have %d sixes. This indicates outstanding ability to care, strong family attachment and high sense of responsibility. Caring for others is your calling.";
+"pythagoras_number_6_none" = "No sixes may indicate difficulty expressing care and compassion, some detachment in relationships. You may find it hard to take responsibility for others.";
+
+// Number 7
+"pythagoras_number_7_one" = "You have 1 seven. This indicates analytical skills, intellectuality and spiritual search. You're capable of deep thinking.";
+"pythagoras_number_7_two" = "You have 2 sevens. You have strong analytical mind, desire for knowledge and spiritual development. You're a deep thinker.";
+"pythagoras_number_7_many" = "You have %d sevens. This indicates outstanding intellectual abilities, deep wisdom and strong spiritual quest. You're a philosopher and thinker by nature.";
+"pythagoras_number_7_none" = "No sevens may indicate predominance of practical over theoretical thinking, some superficiality in judgments. You may lack inclination for deep analysis.";
+
+// Number 8
+"pythagoras_number_8_one" = "You have 1 eight. This indicates certain organizational skills, business acumen and material ambitions. You can achieve financial wellbeing.";
+"pythagoras_number_8_two" = "You have 2 eights. You have good organizational skills, business sense and desire for material success. You're a born manager.";
+"pythagoras_number_8_many" = "You have %d eights. This indicates outstanding business abilities, management skills and achievement of material wellbeing. You were born to be a leader in business.";
+"pythagoras_number_8_none" = "No eights may indicate lack of business acumen, organizational skills and material ambitions. You may find it hard to achieve financial wellbeing.";
+
+// Number 9
+"pythagoras_number_9_one" = "You have 1 nine. This indicates ability for compassion, altruism and humanistic ideals. You can think about others' good.";
+"pythagoras_number_9_two" = "You have 2 nines. You have strong sense of justice, altruism and humanistic values. You strive to make the world better.";
+"pythagoras_number_9_many" = "You have %d nines. This indicates high level of altruism, compassion and devotion to humanistic ideals. Your calling is to help others and improve the world.";
+"pythagoras_number_9_none" = "No nines may indicate predominance of personal over public interests, some egocentrism. You may find it hard to sacrifice your interests for others.";
+
+// Number 10 - Destiny
+"pythagoras_number_10_intro" = "Your destiny number is %d. This number reflects your life mission and main life lesson. ";
+"pythagoras_number_10_1" = "Your mission is to develop leadership, independence and self-confidence. You need to learn to take initiative.";
+"pythagoras_number_10_2" = "Your mission is to find harmony in relationships, learn to cooperate and be diplomatic. It's important to develop patience and understanding.";
+"pythagoras_number_10_3" = "Your mission is to unlock creative potential and share it with the world. You need to learn self-expression and inspire others.";
+"pythagoras_number_10_4" = "Your mission is to build stability and order in your life and lives of others. It's important to develop diligence and practicality.";
+"pythagoras_number_10_5" = "Your mission is to accept change and freedom as part of life. You need to learn to adapt and seek new opportunities.";
+"pythagoras_number_10_6" = "Your mission is to care for others and create harmony in family and society. It's important to develop responsibility and compassion.";
+"pythagoras_number_10_7" = "Your mission is to seek knowledge and spiritual depth. You need to develop analytical mind and inner wisdom.";
+"pythagoras_number_10_8" = "Your mission is to achieve material success and manage resources. It's important to balance ambitions and fairness.";
+"pythagoras_number_10_9" = "Your mission is to serve humanity and benefit the world. You need to develop altruism and global thinking.";
+"pythagoras_number_10_0" = "This number indicates a unique task you need to discover during your life.";
+"pythagoras_number_10_title" = "Destiny Number (1)";
+
+// Number 11 - Character
+"pythagoras_number_11_intro" = "Your character number is %d. This number reflects your inner qualities, character traits and temperament. ";
+"pythagoras_number_11_1" = "You're independent, decisive and strive to be first in everything.";
+"pythagoras_number_11_2" = "You're gentle, diplomatic and know how to find common ground with people.";
+"pythagoras_number_11_3" = "You're a creative person with rich imagination and vivid self-expression.";
+"pythagoras_number_11_4" = "You're practical, reliable and love order in everything.";
+"pythagoras_number_11_5" = "You're curious, freedom-loving and can't stand routine.";
+"pythagoras_number_11_6" = "You're caring, responsible and value family.";
+"pythagoras_number_11_7" = "You're analytical, thoughtful and strive for knowledge.";
+"pythagoras_number_11_8" = "You're ambitious, organized and success-oriented.";
+"pythagoras_number_11_9" = "You're compassionate, idealistic and think about others' good.";
+"pythagoras_number_11_0" = "Your character is unique and multifaceted.";
+"pythagoras_number_11_title" = "Character Number (2)";
+
+// Number 12 - Appearance
+"pythagoras_number_12_intro" = "Your appearance number is %d. This number reflects how others perceive you. ";
+"pythagoras_number_12_1" = "People see you as a confident and proactive leader.";
+"pythagoras_number_12_2" = "You're perceived as gentle, friendly and balanced person.";
+"pythagoras_number_12_3" = "Others notice your creativity and brightness.";
+"pythagoras_number_12_4" = "You're considered reliable, stable and practical.";
+"pythagoras_number_12_5" = "People see you as energetic, free and unpredictable.";
+"pythagoras_number_12_6" = "You're perceived as caring and responsible.";
+"pythagoras_number_12_7" = "Others see you as deep, mysterious and intelligent.";
+"pythagoras_number_12_8" = "People consider you strong, authoritative and successful.";
+"pythagoras_number_12_9" = "You're perceived as kind, generous and inspiring.";
+"pythagoras_number_12_0" = "You make unique impression on others.";
+"pythagoras_number_12_title" = "Appearance Number (3)";
+
+// Number 13 - Energy
+"pythagoras_number_13_intro" = "Your energy number is %d. This number reflects your energy potential and impact on the world. ";
+"pythagoras_number_13_1" = "Your energy is directed towards goals and leadership.";
+"pythagoras_number_13_2" = "Your energy is soft, harmonious and promotes cooperation.";
+"pythagoras_number_13_3" = "Your energy is creative and inspiring.";
+"pythagoras_number_13_4" = "Your energy is stable and supports hard work.";
+"pythagoras_number_13_5" = "Your energy is dynamic, aimed at change and freedom.";
+"pythagoras_number_13_6" = "Your energy is warm, caring and supportive.";
+"pythagoras_number_13_7" = "Your energy is deep, intellectual and contemplative.";
+"pythagoras_number_13_8" = "Your energy is powerful, aimed at success and management.";
+"pythagoras_number_13_9" = "Your energy is generous, aimed at helping others.";
+"pythagoras_number_13_0" = "Your energy is unique and multifaceted.";
+"pythagoras_number_13_title" = "Energy Number (4)";
+
+// Strong traits
+"strong_trait_1" = "strong character and leadership";
+"strong_trait_2" = "diplomacy and flexibility";
+"strong_trait_3" = "creative potential";
+"strong_trait_4" = "practicality and diligence";
+"strong_trait_5" = "curiosity and desire for freedom";
+"strong_trait_6" = "caring nature and responsibility";
+"strong_trait_7" = "intellect and wisdom";
+"strong_trait_8" = "business acumen and organizational skills";
+"strong_trait_9" = "altruism and humanism";
+
+// Weak traits
+"weak_trait_1" = "initiative and confidence";
+"weak_trait_2" = "flexibility in relationships";
+"weak_trait_3" = "creative self-expression";
+"weak_trait_4" = "methodicalness and stability";
+"weak_trait_5" = "openness to change";
+"weak_trait_6" = "care for others";
+"weak_trait_7" = "deep analysis and spirituality";
+"weak_trait_8" = "material ambitions";
+"weak_trait_9" = "desire to help others";
+
+// General characteristics
+"general_characteristic_intro" = "Your Pythagorean Square reflects a unique combination of qualities. ";
+"general_characteristic_no_strong" = "Your strengths aren't clearly defined yet, but this gives you flexibility to develop any qualities. ";
+"general_characteristic_strong" = "Your strengths are %@. ";
+"and" = "and";
+"comma" = ",";
+"general_characteristic_no_weak" = "You have no obvious gaps, indicating a balanced nature. ";
+"general_characteristic_weak" = "Areas to develop include %@. ";
+"general_characteristic_outro" = "Harmonious development of your unique traits will help you achieve success and inner balance.";
+"general_characteristic_title" = "General Characteristics";

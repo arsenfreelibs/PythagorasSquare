@@ -26,3 +26,146 @@
 "result_res" = "结果";
 "result_number_label" = "数字 %d";
 "ad_msg" = "支持开发者";
+
+// Number 1
+"pythagoras_number_1_one" = "你有1个1。这表示你有性格、意志力和决心。你有领导潜力但不总是使用它。";
+"pythagoras_number_1_two" = "你有2个1。你拥有坚强的性格、决心和明显的领导素质。";
+"pythagoras_number_1_many" = "你有%d个1。这表明非常坚强的意志力、固执和明显的领导欲望。你不容忍反对意见并总是努力成为第一。";
+"pythagoras_number_1_none" = "没有1表示性格温和，缺乏主动性和意志力。你很难坚持己见，但能很好地适应环境。";
+
+// Number 2
+"pythagoras_number_2_one" = "你有1个2。这表明平衡、妥协和外交能力。你懂得在关系中找到平衡。";
+"pythagoras_number_2_two" = "你有2个2。你有良好的外交技巧，倾听他人并与不同的人找到共同点。";
+"pythagoras_number_2_many" = "你有%d个2。这表明出色的外交能力、爱好和平和合作倾向。你是个天生的和平使者与调解人。";
+"pythagoras_number_2_none" = "没有2可能表示在关系中缺乏灵活性，难以找到妥协方案。你可能难以接受他人的观点。";
+
+// Number 3
+"pythagoras_number_3_one" = "你有1个3。这表明创造潜力和自我表达能力。你能够进行非常规思考。";
+"pythagoras_number_3_two" = "你有2个3。你有明亮的创造性思维、丰富的想象力和自我表达的愿望。";
+"pythagoras_number_3_many" = "你有%d个3。这表明卓越的创造力、丰富的想象力和原创思维。你天生适合创造和自我表达。";
+"pythagoras_number_3_none" = "没有3可能表示逻辑思维优于创造性思维，在自我表达上有些拘束。你可能缺乏想象力。";
+
+// Number 4
+"pythagoras_number_4_one" = "你有1个4。这表明一定的方法性、稳定性和工作能力。你能够进行系统性的工作。";
+"pythagoras_number_4_two" = "你有2个4。你有良好的工作能力、实用性和方法性。你可靠且彻底。";
+"pythagoras_number_4_many" = "你有%d个4。这表明出色的工作能力、实用性和方法性。在你所做的每件事上都非常可靠、负责和彻底。";
+"pythagoras_number_4_none" = "没有4可能表示缺乏实用性和方法性。你可能觉得日常工作困难并难以完成任务。";
+
+// Number 5
+"pythagoras_number_5_one" = "你有1个5。这表明好奇心、对新奇和变化的渴望。你不喜欢停滞和常规。";
+"pythagoras_number_5_two" = "你有2个5。你有强烈的新体验欲望、好奇心和自由渴望。你需要变化和多样性。";
+"pythagoras_number_5_many" = "你有%d个5。这表明明显的自由欲望、冒险精神和对新体验的渴望。你不能忍受限制和单调。";
+"pythagoras_number_5_none" = "没有5可能表示保守主义、害怕变化和倾向于熟悉的生活方式。你在稳定、可预测的环境中更舒适。";
+
+// Number 6
+"pythagoras_number_6_one" = "你有1个6。这表明责任感、关怀和家庭价值观。你能够同情和关心他人。";
+"pythagoras_number_6_two" = "你有2个6。你有强烈的责任感、对亲人的关怀和对家庭价值观的承诺。你是个可靠且关心他人的人。";
+"pythagoras_number_6_many" = "你有%d个6。这表明出色的关怀能力、强烈的家庭依恋和高度的责任感。关心他人是你的使命。";
+"pythagoras_number_6_none" = "没有6可能表示在表达关怀和同情方面有困难，在关系中有些疏离。你可能难以对他人负责。";
+
+// Number 7
+"pythagoras_number_7_one" = "你有1个7。这表明分析能力、智力和精神追求。你能够深入思考。";
+"pythagoras_number_7_two" = "你有2个7。你有强大的分析思维、求知欲和精神发展愿望。你是个深刻的思想者。";
+"pythagoras_number_7_many" = "你有%d个7。这表明卓越的智力能力、深刻的智慧和强烈的精神追求。你天生是个哲学家和思想家。";
+"pythagoras_number_7_none" = "没有7可能表示实践思维优于理论思维，判断上有些肤浅。你可能缺乏深入分析的倾向。";
+
+// Number 8
+"pythagoras_number_8_one" = "你有1个8。这表明一定的组织能力、商业头脑和物质抱负。你能够实现财务健康。";
+"pythagoras_number_8_two" = "你有2个8。你有良好的组织能力、商业意识和物质成功愿望。你是个天生的管理者。";
+"pythagoras_number_8_many" = "你有%d个8。这表明出色的商业能力、管理技巧和物质成就。你天生就是商业领域的领导者。";
+"pythagoras_number_8_none" = "没有8可能表示缺乏商业头脑、组织能力和物质抱负。你可能难以实现财务健康。";
+
+// Number 9
+"pythagoras_number_9_one" = "你有1个9。这表明同情心、利他主义和人道主义理想的能力。你能够考虑他人的利益。";
+"pythagoras_number_9_two" = "你有2个9。你有强烈的正义感、利他主义和人道主义价值观。你努力使世界变得更美好。";
+"pythagoras_number_9_many" = "你有%d个9。这表明高度的利他主义、同情心和对人道主义理想的奉献。你的使命是帮助他人并使世界变得更美好。";
+"pythagoras_number_9_none" = "没有9可能表示个人利益优于公共利益，有些自我中心。你可能难以为了他人牺牲自己的利益。";
+
+// Number 10
+"pythagoras_number_10_intro" = "你的命运数字是%d。这个数字反映了你的人生使命和主要人生课题。";
+"pythagoras_number_10_1" = "你的使命是培养领导力、独立性和自信心。你需要学会主动掌握主动权。";
+"pythagoras_number_10_2" = "你的使命是在关系中寻找和谐，学会合作与外交。培养耐心和理解对你很重要。";
+"pythagoras_number_10_3" = "你的使命是发掘创造潜能并与世界分享。你需要学会自我表达和激励他人。";
+"pythagoras_number_10_4" = "你的使命是在自己和他人的生活中建立稳定与秩序。培养勤奋和务实对你很重要。";
+"pythagoras_number_10_5" = "你的使命是接受变化和自由作为生活的一部分。你需要学会适应和寻找新机会。";
+"pythagoras_number_10_6" = "你的使命是关爱他人，在家庭和社会中创造和谐。培养责任感和同情心很重要。";
+"pythagoras_number_10_7" = "你的使命是寻求知识和精神深度。你需要培养分析思维和内在智慧。";
+"pythagoras_number_10_8" = "你的使命是取得物质成功并管理资源。学会平衡抱负与公平对你很重要。";
+"pythagoras_number_10_9" = "你的使命是为人类服务并为世界带来益处。你需要培养利他精神和全球思维。";
+"pythagoras_number_10_0" = "这个数字表明你有独特的人生任务需要在一生中探索。";
+"pythagoras_number_10_title" = "命运数字(1)";
+
+// Number 11
+"pythagoras_number_11_intro" = "你的性格数字是%d。这个数字反映了你的内在品质、性格特征和气质。";
+"pythagoras_number_11_1" = "你独立果断，凡事都力争第一。";
+"pythagoras_number_11_2" = "你温和有礼，善于与人沟通相处。";
+"pythagoras_number_11_3" = "你富有创造力，想象力丰富且善于表达。";
+"pythagoras_number_11_4" = "你务实可靠，喜欢井井有条。";
+"pythagoras_number_11_5" = "你好奇心强，热爱自由，厌恶一成不变。";
+"pythagoras_number_11_6" = "你富有爱心，责任心强，重视家庭。";
+"pythagoras_number_11_7" = "你善于分析，思维深刻，追求知识。";
+"pythagoras_number_11_8" = "你雄心勃勃，组织能力强，追求成功。";
+"pythagoras_number_11_9" = "你富有同情心，理想主义，关心他人福祉。";
+"pythagoras_number_11_0" = "你的性格独特而多面。";
+"pythagoras_number_11_title" = "性格数字(2)";
+
+// Number 12
+"pythagoras_number_12_intro" = "你的外在表现数字是%d。这个数字反映了他人对你的看法。";
+"pythagoras_number_12_1" = "在别人眼中你是个自信果断的领导者。";
+"pythagoras_number_12_2" = "你给人温和友善、稳重平和的印象。";
+"pythagoras_number_12_3" = "别人注意到你的创造力和独特魅力。";
+"pythagoras_number_12_4" = "你被认为是个可靠、稳重且务实的人。";
+"pythagoras_number_12_5" = "人们觉得你充满活力、热爱自由且难以预测。";
+"pythagoras_number_12_6" = "你给人有爱心、负责任的印象。";
+"pythagoras_number_12_7" = "别人认为你思想深刻、神秘而智慧。";
+"pythagoras_number_12_8" = "人们觉得你强大有力、掌控全局且成功。";
+"pythagoras_number_12_9" = "你给人善良慷慨、鼓舞人心的印象。";
+"pythagoras_number_12_0" = "你给他人留下独特而深刻的印象。";
+"pythagoras_number_12_title" = "外在表现数字(3)";
+
+// Number 13
+"pythagoras_number_13_intro" = "你的能量数字是%d。这个数字反映了你的能量潜力和对世界的影响力。";
+"pythagoras_number_13_1" = "你的能量专注于目标达成和领导力。";
+"pythagoras_number_13_2" = "你的能量温和协调，促进合作。";
+"pythagoras_number_13_3" = "你的能量富有创造力且鼓舞人心。";
+"pythagoras_number_13_4" = "你的能量稳定持久，支持勤奋工作。";
+"pythagoras_number_13_5" = "你的能量充满活力，寻求变化和自由。";
+"pythagoras_number_13_6" = "你的能量温暖关怀，给予支持。";
+"pythagoras_number_13_7" = "你的能量深邃智慧，富有洞察力。";
+"pythagoras_number_13_8" = "你的能量强大有力，追求成功和管理。";
+"pythagoras_number_13_9" = "你的能量慷慨仁慈，乐于助人。";
+"pythagoras_number_13_0" = "你的能量独特而多面。";
+"pythagoras_number_13_title" = "能量数字(4)";
+
+// Strong traits
+"strong_trait_1" = "坚强的性格和领导力";
+"strong_trait_2" = "外交能力和灵活性";
+"strong_trait_3" = "创造潜力";
+"strong_trait_4" = "实用性和勤奋";
+"strong_trait_5" = "好奇心和追求自由";
+"strong_trait_6" = "关怀心和责任感";
+"strong_trait_7" = "智慧和才智";
+"strong_trait_8" = "商业头脑和组织能力";
+"strong_trait_9" = "利他主义和人文主义";
+
+// Weak traits
+"weak_trait_1" = "主动性和自信";
+"weak_trait_2" = "关系中的灵活性";
+"weak_trait_3" = "创造性自我表达";
+"weak_trait_4" = "条理性和稳定性";
+"weak_trait_5" = "对变化的开放态度";
+"weak_trait_6" = "关心他人";
+"weak_trait_7" = "深度分析和灵性";
+"weak_trait_8" = "物质抱负";
+"weak_trait_9" = "帮助他人的意愿";
+
+// General characteristics
+"general_characteristic_intro" = "你的毕达哥拉斯数字方阵反映了独特的品质组合。";
+"general_characteristic_no_strong" = "你的优势尚未通过明显特征展现出来，但这使你在发展任何品质时都具有灵活性。";
+"general_characteristic_strong" = "你的优势是%@。";
+"and" = "和";
+"comma" = "，";
+"general_characteristic_no_weak" = "你没有明显的短板，这表明你天性平衡。";
+"general_characteristic_weak" = "需要发展的领域包括%@。";
+"general_characteristic_outro" = "和谐发展你的独特特质将帮助你获得成功和内心平衡。";
+"general_characteristic_title" = "总体特征";
