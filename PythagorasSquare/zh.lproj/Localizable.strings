@@ -26,6 +26,7 @@
 "result_res" = "结果";
 "result_number_label" = "数字 %d";
 "ad_msg" = "支持开发者";
+"share_button_title" = "分享";
 
 // Number 1
 "pythagoras_number_1_one" = "你有1个1。这表示你有性格、意志力和决心。你有领导潜力但不总是使用它。";

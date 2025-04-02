@@ -26,6 +26,7 @@
 "result_res" = "Résultat";
 "result_number_label" = "Nombre %d";
 "ad_msg" = "Soutenir le développeur";
+"share_button_title" = "Partager";
 
 // Number 1
 "pythagoras_number_1_one" = "Vous avez 1 chiffre 1. Cela indique la présence de caractère, de volonté et de détermination. Vous êtes capable de leadership, mais vous ne l'utilisez pas toujours.";

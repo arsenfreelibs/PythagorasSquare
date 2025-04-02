@@ -26,6 +26,7 @@
 "result_res" = "Result";
 "result_number_label" = "Number %d";
 "ad_msg" = "Support the developer";
+"share_button_title" = "Share";
 
 // Number 1
 "pythagoras_number_1_one" = "You have 1 one. This indicates character, willpower, and determination. You have leadership potential but don't always use it.";

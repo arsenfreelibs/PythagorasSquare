@@ -26,6 +26,7 @@
 "result_res" = "Resultado";
 "result_number_label" = "Número %d";
 "ad_msg" = "Apoyar al desarrollador";
+"share_button_title" = "Compartir";
 
 // Number 1
 "pythagoras_number_1_one" = "Tienes 1 uno. Esto indica la presencia de carácter, voluntad y determinación. Tienes capacidad de liderazgo, aunque no siempre la utilizas.";

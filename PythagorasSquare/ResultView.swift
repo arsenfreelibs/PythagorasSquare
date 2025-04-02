@@ -19,50 +19,10 @@ struct ResultView: View {
             
             ScrollView {
                 VStack(spacing: 20) {
-                    // Заголовок
-                    Text(LocalizedStringKey("result_title"))
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
-                        .foregroundColor(.primary)
-                        .padding(.top)
-                        .opacity(isVisible ? 1 : 0)
-                        .animation(.easeIn(duration: 0.5), value: isVisible)
+                    // Верхняя часть для шаринга
+                    ShareableResultContent(square: square, isVisible: isVisible)
                     
-                    // Визуализация квадрата
-                    GeometryReader { geometry in
-                        VStack(spacing: 4) {
-                            ForEach(0..<3) { row in
-                                HStack(spacing: 4) {
-                                    ForEach(1...3, id: \.self) { col in
-                                        let number = row * 3 + col
-                                        SquareCell(number: number, count: square.numbers[number] ?? 0)
-                                            .frame(width: min(geometry.size.width / 3.5, 100), height: min(geometry.size.width / 3.5, 100))
-                                    }
-                                }
-                            }
-                        }
-                        .frame(maxWidth: .infinity)
-                        .opacity(isVisible ? 1 : 0)
-                        .animation(.easeIn(duration: 0.6).delay(0.2), value: isVisible)
-                    }
-                    .frame(height: 320) // Фиксированная высота для стабильности
-                    .padding(.horizontal)
-                    
-                    // Дополнительные числа
-                    GeometryReader { geometry in
-                        HStack(spacing: 10) {
-                            ForEach([10, 11, 12, 13], id: \.self) { number in
-                                AdditionalNumberView(label:  String(format: NSLocalizedString("result_number_label", comment: ""), number-9), value: square.numbers[number] ?? 0)
-                                    .frame(maxWidth: geometry.size.width > 500 ? 100 : 80)
-                            }
-                        }
-                        .frame(maxWidth: .infinity)
-                    }
-                    .frame(height: 100)
-                    .padding(.horizontal)
-                    .opacity(isVisible ? 1 : 0)
-                    .animation(.easeIn(duration: 0.6).delay(0.3), value: isVisible)
-                    
-                    // Кнопка
+                    // Кнопка "Посмотреть трактовку"
                     Button(action: {
                         withAnimation(.easeInOut(duration: 0.2)) {
                             showExplanation = true
@@ -83,15 +43,36 @@ struct ResultView: View {
                     .opacity(isVisible ? 1 : 0)
                     .animation(.easeIn(duration: 0.6).delay(0.4), value: isVisible)
                     
+                    // Кнопка "Поделиться"
+                    Button(action: {
+                        shareResult()
+                    }) {
+                        HStack {
+                            Image(systemName: "square.and.arrow.up")
+                            Text(LocalizedStringKey("share_button_title"))
+                        }
+                        .font(.system(size: 18, weight: .semibold, design: .rounded))
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(
+                            LinearGradient(gradient: Gradient(colors: [.purple, .blue]), startPoint: .leading, endPoint: .trailing)
+                        )
+                        .cornerRadius(15)
+                        .shadow(color: .gray.opacity(0.3), radius: 5, x: 0, y: 2)
+                    }
+                    .padding(.horizontal, 40)
+                    .opacity(isVisible ? 1 : 0)
+                    .animation(.easeIn(duration: 0.6).delay(0.5), value: isVisible)
+                    
                     // Реклама
                     InterstitialAdButton()
                         .padding(.top, 5)
                         .opacity(isVisible ? 1 : 0)
-                        .animation(.easeIn(duration: 0.6).delay(0.5), value: isVisible)
+                        .animation(.easeIn(duration: 0.6).delay(0.6), value: isVisible)
                     
                     Spacer(minLength: 20)
                 }
-                .frame(maxWidth: .infinity, alignment: .center)
             }
             .navigationTitle(LocalizedStringKey("result_res"))
             .navigationBarTitleDisplayMode(.inline)
@@ -112,6 +93,46 @@ struct ResultView: View {
                 isVisible = false
             }
         }
+    }
+    
+    private func shareResult() {
+        // Формируем текст для шаринга
+        let shareTitle = NSLocalizedString("share_result_title", comment: "Title for sharing result")
+        let generalCharacteristic = square.characteristics[NSLocalizedString("general_characteristic_title", comment: "Title for general characteristic")] ?? ""
+        let resultText = "\(shareTitle)\n\n\(generalCharacteristic)"
+        
+        // Добавляем ссылку на приложение (опционально)
+        let appURLString = "https://your-app-url.com" // Замени на реальную ссылку
+        var items: [Any] = [resultText]
+        
+//        if let appURL = URL(string: appURLString) {
+//            items.append(appURL)
+//        }
+        
+        // Создаём скриншот только верхней части
+        let shareableContent = ShareableResultContent(square: square, isVisible: true)
+        let image = shareableContent.snapshot()
+        items.append(image)
+        
+        // Настраиваем UIActivityViewController
+        let activityController = UIActivityViewController(activityItems: items, applicationActivities: nil)
+        
+        // Исключаем ненужные опции
+        activityController.excludedActivityTypes = [
+            .airDrop,
+            .print,
+            .addToReadingList,
+            .saveToCameraRoll
+        ]
+        
+        // Настройка для iPad
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            activityController.popoverPresentationController?.sourceView = UIApplication.shared.windows.first?.rootViewController?.view
+            activityController.popoverPresentationController?.sourceRect = CGRect(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2, width: 0, height: 0)
+        }
+        
+        // Показываем панель шаринга
+        UIApplication.shared.windows.first?.rootViewController?.present(activityController, animated: true, completion: nil)
     }
 }
 

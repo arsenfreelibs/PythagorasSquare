@@ -26,6 +26,7 @@
 "result_res" = "Ergebnis";
 "result_number_label" = "Zahl %d";
 "ad_msg" = "Entwickler unterstützen";
+"share_button_title" = "Teilen";
 
 // Number 1
 "pythagoras_number_1_one" = "Sie haben 1 Einser. Dies deutet auf Charakter, Willenskraft und Zielstrebigkeit hin. Sie besitzen Führungsqualitäten, nutzen diese aber nicht immer.";
