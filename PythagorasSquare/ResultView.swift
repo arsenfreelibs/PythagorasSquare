@@ -10,19 +10,39 @@ import SwiftUI
 struct ResultView: View {
     let square: PythagorasSquare
     @State private var showExplanation = false
-    @State private var isVisible = false // Для анимации появления
+    @State private var isVisible = false
+    @State private var selectedCell: Int? = nil
+    @State private var showCellPopup = false
+    @State private var popupText = ""
     
     var body: some View {
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [.green.opacity(0.1), .blue.opacity(0.1)]), startPoint: .top, endPoint: .bottom)
-                .ignoresSafeArea()
+            LinearGradient(gradient: Gradient(colors: [.green.opacity(0.1), .blue.opacity(0.1)]),                           startPoint: .top,                           endPoint: .bottom)
+            .ignoresSafeArea()
             
             ScrollView {
                 VStack(spacing: 20) {
                     // Верхняя часть для шаринга
-                    ShareableResultContent(square: square, isVisible: isVisible)
+                    ShareableResultContent(
+                        square: square,
+                        isVisible: isVisible,
+                        onCellTap: { number in
+                            selectedCell = number
+                            showCellPopup = true
+                            // Выбираем правильный ключ в зависимости от диапазона числа
+                            let descriptionKey: String
+                            if (1...9).contains(number) {
+                                descriptionKey = String(format: NSLocalizedString("result_number_label", comment: ""), number)
+                            } else {
+                                descriptionKey = NSLocalizedString("pythagoras_number_\(number)_title", comment: "Title for additional number \(number)")
+                            }
+                            
+                            popupText = square.characteristics[descriptionKey] ?? ""
+                        },
+                        selectedCell: selectedCell
+                    )
                     
-                    // Кнопка "Посмотреть трактовку"
+                    // Остальные кнопки (оставить без изменений)
                     Button(action: {
                         withAnimation(.easeInOut(duration: 0.2)) {
                             showExplanation = true
@@ -92,6 +112,53 @@ struct ResultView: View {
             .onDisappear {
                 isVisible = false
             }
+            
+            // Popup для ячеек
+            if showCellPopup, let number = selectedCell {
+                Color.black.opacity(0.4)
+                    .edgesIgnoringSafeArea(.all)
+                    .onTapGesture {
+                        withAnimation(.spring()) {
+                            showCellPopup = false
+                            selectedCell = nil
+                        }
+                    }
+                
+                VStack(spacing: 15) {
+                    HStack {
+                        Spacer()
+                        Button {
+                            withAnimation(.spring()) {
+                                showCellPopup = false
+                                selectedCell = nil
+                            }
+                        } label: {
+                            Image(systemName: "xmark.circle.fill")
+                                .font(.title2)
+                                .foregroundColor(.gray)
+                        }
+                    }
+                    
+                    Text((1...9).contains(number) ?
+                         String(format: NSLocalizedString("result_number_label", comment: ""), number) :
+                         NSLocalizedString("pythagoras_number_\(number)_title", comment: ""))
+                    .font(.system(size: 20, weight: .semibold, design: .rounded))
+                    .foregroundColor(.blue)
+                    
+                    Text(popupText)
+                        .font(.system(size: 16, design: .rounded))
+                        .foregroundColor(.primary)
+                        .padding(.leading, 10)
+                }
+                .padding()
+                .background(
+                    RoundedRectangle(cornerRadius: 15)
+                        .fill(Color(.systemBackground))
+                )
+                .transition(.scale.combined(with: .opacity))
+                .zIndex(1)
+                .frame(maxWidth: 300)
+            }
         }
     }
     
@@ -139,48 +206,62 @@ struct ResultView: View {
 struct SquareCell: View {
     let number: Int
     let count: Int
+    var isSelected: Bool
+    var action: () -> Void
     
     var body: some View {
-        ZStack {
-            Rectangle()
-                .fill(Color.blue.opacity(0.15))
-                .cornerRadius(10)
-                .shadow(color: .gray.opacity(0.2), radius: 3, x: 0, y: 2)
-            
-            VStack {
-                Text("\(number)")
-                    .font(.system(size: 14, weight: .medium, design: .rounded))
-                    .foregroundColor(.gray)
+        Button(action: action) {
+            ZStack {
+                Rectangle()
+                    .fill(isSelected ? Color.blue.opacity(0.3) : Color.blue.opacity(0.15))
+                    .cornerRadius(10)
+                    .shadow(color: .gray.opacity(0.2), radius: 3, x: 0, y: 2)
+                    .scaleEffect(isSelected ? 1.1 : 1.0)
+                    .animation(.spring(response: 0.3, dampingFraction: 0.5), value: isSelected)
                 
-                Text("\(count)")
-                    .font(.system(size: 32, weight: .bold, design: .rounded))
-                    .foregroundColor(count > 0 ? .blue : .gray)
+                VStack {
+                    Text("\(number)")
+                        .font(.system(size: 14, weight: .medium, design: .rounded))
+                        .foregroundColor(.gray)
+                    
+                    Text("\(count)")
+                        .font(.system(size: 32, weight: .bold, design: .rounded))
+                        .foregroundColor(count > 0 ? .blue : .gray)
+                }
             }
         }
+        .buttonStyle(PlainButtonStyle())
     }
 }
 
 struct AdditionalNumberView: View {
     let label: String
     let value: Int
+    var isSelected: Bool
+    var action: () -> Void
     
     var body: some View {
-        VStack(spacing: 4) {
-            Text(label)
-                .font(.system(size: 12, weight: .medium, design: .rounded))
-                .foregroundColor(.gray)
-            
-            Text("\(value)")
-                .font(.system(size: 24, weight: .bold, design: .rounded))
-                .foregroundColor(.blue)
-                .padding(10)
-                .background(
-                    Circle()
-                        .fill(Color.blue.opacity(0.15))
-                        .shadow(color: .gray.opacity(0.2), radius: 3, x: 0, y: 2)
-                )
+        Button(action: action) {
+            VStack(spacing: 4) {
+                Text(label)
+                    .font(.system(size: 12, weight: .medium, design: .rounded))
+                    .foregroundColor(.gray)
+                
+                Text("\(value)")
+                    .font(.system(size: 24, weight: .bold, design: .rounded))
+                    .foregroundColor(.blue)
+                    .padding(10)
+                    .background(
+                        Circle()
+                            .fill(isSelected ? Color.blue.opacity(0.3) : Color.blue.opacity(0.15))
+                            .shadow(color: .gray.opacity(0.2), radius: 3, x: 0, y: 2)
+                    )
+                    .scaleEffect(isSelected ? 1.1 : 1.0)
+                    .animation(.spring(response: 0.3, dampingFraction: 0.5), value: isSelected)
+            }
+            .frame(maxWidth: .infinity)
         }
-        .frame(maxWidth: .infinity)
+        .buttonStyle(PlainButtonStyle())
     }
 }
 
