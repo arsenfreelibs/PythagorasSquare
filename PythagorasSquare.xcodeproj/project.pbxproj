@@ -11,16 +11,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5BB62592D9BF1B700E6C138 /* PythagorasSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PythagorasSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BB62592D9BF1B700E6C138 /* PythagoreanInsights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PythagoreanInsights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F5BB62802D9BFBCE00E6C138 /* Exceptions for "PythagorasSquare" folder in "PythagorasSquare" target */ = {
+		F5BB62802D9BFBCE00E6C138 /* Exceptions for "PythagorasSquare" folder in "PythagoreanInsights" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = F5BB62582D9BF1B700E6C138 /* PythagorasSquare */;
+			target = F5BB62582D9BF1B700E6C138 /* PythagoreanInsights */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -28,7 +28,7 @@
 		F5BB625B2D9BF1B700E6C138 /* PythagorasSquare */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F5BB62802D9BFBCE00E6C138 /* Exceptions for "PythagorasSquare" folder in "PythagorasSquare" target */,
+				F5BB62802D9BFBCE00E6C138 /* Exceptions for "PythagorasSquare" folder in "PythagoreanInsights" target */,
 			);
 			path = PythagorasSquare;
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 		F5BB625A2D9BF1B700E6C138 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5BB62592D9BF1B700E6C138 /* PythagorasSquare.app */,
+				F5BB62592D9BF1B700E6C138 /* PythagoreanInsights.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F5BB62582D9BF1B700E6C138 /* PythagorasSquare */ = {
+		F5BB62582D9BF1B700E6C138 /* PythagoreanInsights */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5BB62672D9BF1B800E6C138 /* Build configuration list for PBXNativeTarget "PythagorasSquare" */;
+			buildConfigurationList = F5BB62672D9BF1B800E6C138 /* Build configuration list for PBXNativeTarget "PythagoreanInsights" */;
 			buildPhases = (
 				F5BB62552D9BF1B700E6C138 /* Sources */,
 				F5BB62562D9BF1B700E6C138 /* Frameworks */,
@@ -81,12 +81,12 @@
 			fileSystemSynchronizedGroups = (
 				F5BB625B2D9BF1B700E6C138 /* PythagorasSquare */,
 			);
-			name = PythagorasSquare;
+			name = PythagoreanInsights;
 			packageProductDependencies = (
 				F5BB626B2D9BF3FF00E6C138 /* GoogleMobileAds */,
 			);
-			productName = PythagorasSquare;
-			productReference = F5BB62592D9BF1B700E6C138 /* PythagorasSquare.app */;
+			productName = PythagoreanInsights;
+			productReference = F5BB62592D9BF1B700E6C138 /* PythagoreanInsights.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F5BB62582D9BF1B700E6C138 /* PythagorasSquare */,
+				F5BB62582D9BF1B700E6C138 /* PythagoreanInsights */,
 			);
 		};
 /* End PBXProject section */
@@ -279,12 +279,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"PythagorasSquare/Preview Content\"";
 				DEVELOPMENT_TEAM = U97T6JQUY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PythagorasSquare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PythagoreanInsights;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,6 +299,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rvv.PythagorasSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -313,12 +315,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"PythagorasSquare/Preview Content\"";
 				DEVELOPMENT_TEAM = U97T6JQUY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PythagorasSquare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PythagoreanInsights;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +335,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rvv.PythagorasSquare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -352,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5BB62672D9BF1B800E6C138 /* Build configuration list for PBXNativeTarget "PythagorasSquare" */ = {
+		F5BB62672D9BF1B800E6C138 /* Build configuration list for PBXNativeTarget "PythagoreanInsights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5BB62682D9BF1B800E6C138 /* Debug */,
